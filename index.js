@@ -39,7 +39,8 @@ const plugins = [
       // Resolve the Babel runtime relative to the config.
       moduleName: path.dirname(require.resolve("babel-runtime/package"))
     }
-  ]
+  ],
+  [require("babel-plugin-transform-es2015-modules-commonjs")]
 ];
 
 // This is similar to how `env` works in Babel:

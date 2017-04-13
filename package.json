@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-killua",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A collection of presets derived off create react app",
   "main": "lib/index.js",
   "scripts": {
